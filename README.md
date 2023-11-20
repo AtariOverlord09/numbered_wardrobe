@@ -1,18 +1,59 @@
 # lesson_flutter_2
 
-A new Flutter project.
+## Описание
 
-## Getting Started
+Этот проект представляет собой простое приложение Flutter, созданное с использованием виджетов Flutter, таких как  Scaffold, SafeArea, и Container, чтобы отобразить макет с несколькими раскрашенными блоками и текстом.
+Установка 
 
-This project is a starting point for a Flutter application.
+Убедитесь, что у вас установлен Flutter. В противном случае, следуйте инструкциям на сайте Flutter для начала.
 
-A few resources to get you started if this is your first Flutter project:
+## Установка
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Клонируйте репозиторий: 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+git clone https://github.com/your-username/your-project.git
+```
 
+Перейдите в директорию проекта: 
 
+```bash
+cd your-project
+```
+
+Запустите приложение: 
+
+```bash
+flutter run
+```
+
+## Использование 
+
+Это приложение представляет собой макет с несколькими раскрашенными блоками и текстом, представленными с использованием различных цветов и стилей. Каждый блок имеет свой уникальный цвет и содержит текст '1'. Вы можете настраивать цвета и стили. 
+
+### Класс MyHomePage 
+
+Класс  MyHomePage является виджетом Flutter, который создает главный экран приложения. Он использует различные виджеты Flutter, такие как  Scaffold,  SafeArea, и Container, чтобы создать комплексный макет с несколькими строками и колонками.
+Настройка 
+
+Вы можете настраивать внешний вид блоков, меняя цвета и стили в конструкторе класса  MyHomePage. Ниже приведен пример настройки одного из блоков:
+
+```
+Expanded(
+  child: Container(
+    color: Colors.black,
+    margin: const EdgeInsets.only(left: 8, top: 8, right: 4, bottom: 4),
+    child: const Center(
+      child: Text(
+        '1',
+        style: TextStyle(
+          color: Color.fromRGBO(245, 255, 151, 0.965),
+          fontSize: 60.0,
+        ),
+      ),
+    ),
+  ),
+),
+```
+
+Автор: Иван Сахневич
