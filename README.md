@@ -12,13 +12,13 @@
 Клонируйте репозиторий: 
 
 ```bash
-git clone https://github.com/your-username/your-project.git
+git clone https://github.com/AtariOverlord09/numbered_wardrober.git
 ```
 
 Перейдите в директорию проекта: 
 
 ```bash
-cd your-project
+cd numbered_wardrober
 ```
 
 Запустите приложение: 
